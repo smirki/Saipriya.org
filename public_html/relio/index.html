@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relio - Personal CRM Platform</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+  <header>
+    <nav class="bg-white shadow-md">
+      <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-blue-600">Relio</a>
+        <button class="block md:hidden"><i class="fas fa-bars"></i></button>
+        <ul class="hidden md:flex space-x-4">
+          <li><a href="#features" class="text-gray-600 hover:text-blue-600">Features</a></li>
+          <li><a href="#integrations" class="text-gray-600 hover:text-blue-600">Integrations</a></li>
+          <li><a href="#pricing" class="text-gray-600 hover:text-blue-600">Pricing</a></li>
+          <li><a href="#login" class="text-gray-600 hover:text-blue-600">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container mx-auto px-4 py-16 text-center">
+      <h1 class="text-5xl font-bold text-blue-600 mb-4">Supercharge Your Personal CRM Workflow</h1>
+      <p class="text-xl text-gray-700 mb-8">Effortlessly manage relationships like a pro with Relio.</p>
+      <a href="web-dev/web-dev.html" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-500">Go to Web Dev agency</a>
+    </div>
+  </header>
+  
+  <main>
+    <section id="features" class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center text-blue-600 mb-12">Key Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-md p-6">
+          <img src="smart-integrations-icon.png" alt="Smart Integrations" class="mx-auto mb-4">
+          <h3 class="text-2xl font-bold text-blue-600 mb-2">Smart Integrations</h3>
+          <p class="text-gray-600">Connect with popular tools like Gmail, Slack, and Trello.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-md p-6">
+          <img src="custom-fields-icon.png" alt="Custom Fields" class="mx-auto mb-4">
+          <h3 class="text-2xl font-bold text-blue-600 mb-2">Custom Fields</h3>
+          <p class="text-gray-600">Create custom fields to organize your contacts in the way that works best for you.</p>
+        </div>
+        <div class="bg-white shadow-mdrounded-md p-6">
+          <img src="automated-tasks-icon.png" alt="Automated Tasks" class="mx-auto mb-4">
+          <h3 class="text-2xl font-bold text-blue-600 mb-2">Automated Tasks</h3>
+          <p class="text-gray-600">Set up automated tasks to streamline your workflow and save time.</p>
+        </div>
+      </div>
+    </section>
+    <section id="integrations" class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center text-blue-600 mb-8">Integrations</h2>
+      <p class="text-xl text-center text-gray-700 mb-12">Relio seamlessly integrates with the tools you already use, including:</p>
+      <div class="flex justify-center items-center space-x-8 mb-12">
+        <img src="gmail-logo.png" alt="Gmail" class="w-16 h-16">
+        <img src="slack-logo.png" alt="Slack" class="w-16 h-16">
+        <img src="trello-logo.png" alt="Trello" class="w-16 h-16">
+      </div>
+      <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-500">Discover All Integrations</a>
+    </section>
+
+    <section id="about" class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center text-blue-600 mb-8">About Us</h2>
+      <p class="text-xl text-center text-gray-700 mb-4">Relio is a personal CRM platform designed to help individuals manage their relationships like a pro. Our mission is to provide a seamless experience for our users by integrating with popular tools and services they already use.</p>
+      <p class="text-xl text-center text-gray-700 mb-12">We are also a web development agency that creates custom web solutions for businesses of all sizes. Our agency work helps fund the development of our personal CRM platform and allows us to continue providing top-notch service to our clients.</p>
+    </section>
+  </main>
+
+  <footer class="bg-blue-600 py-4 mt-16">
+    <div class="container mx-auto px-4 text-center text-white">
+      <p>&copy; 2023 Relio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
